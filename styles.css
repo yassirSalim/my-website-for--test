@@ -1,0 +1,92 @@
+/* General Style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Card Sections */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Image */
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Projects */
+.project {
+  background: #eef;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  .card {
+    width: 95%;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}
